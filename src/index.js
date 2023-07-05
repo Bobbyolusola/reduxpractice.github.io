@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import  userReducer from "./Context/AuthContext";
 import {configureStore} from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
+import userReducer from "./context/AuthContext"
 
 const store =  configureStore( {
     reducer: {
