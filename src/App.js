@@ -29,6 +29,7 @@ const App = () => {
         {
           path: AppRoutes.MAIN,
           element: <Login />,
+          errorElement : <h1>PAGE LOg`iN NOT FOUND</h1>,
         },
         {
           path: AppRoutes.PROFILE,

@@ -2,10 +2,14 @@ import React from 'react';
 import './Profile.css';
 
 const Profile = () => {
-    return (
+  const authUser = JSON.parse(localStorage.getItem('isAuthUser'));
+
+  return (
         <div className='ProfileContainer'>
             Profile Page
+          {authUser.id}
         </div>
+
     );
 };
 
